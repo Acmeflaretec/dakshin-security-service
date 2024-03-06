@@ -142,11 +142,27 @@ a:focus {
   transform: translate3d(0, -100%, 0);
 }
 
-.slider_section .slider_box {
+.slider_section  .b1 {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
   background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_section  .b2 {
+  display: flex;
+  position: relative;
+  height: calc(100vh - 90px);
+  background-image: url(../images/banner/collin-8FxJi5wuwKc-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_section  .b3 {
+  display: flex;
+  position: relative;
+  height: calc(100vh - 90px);
+  background-image: url(../images/banner/portrait-male-security-guard-with-barbed-wire-fence.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
