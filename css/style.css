@@ -673,3 +673,12 @@ a:focus {
 }
 
 /* end footer section*/
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; /* Set text color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
