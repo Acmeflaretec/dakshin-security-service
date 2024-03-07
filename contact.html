@@ -68,37 +68,37 @@
     </div>
   </header>
   <!-- end header section -->
-
-
-
-  <!-- contact section -->
   <section class="contact_section layout_padding">
     <div class="container-fluid">
       <div class="row">
-        <div class=" col-md-6">
-          <div id="map" class="h-100 w-100 ">
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.727605495227!2d76.53587607361378!3d9.17902578662537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b061dbcb7c805a9%3A0x9226f4af9e15f9a0!2sLaxmi%20Kuchelan%2C%20Mattath%20Tharayil%2C%20Manjadithara%2C%20Near%20Koprapura%20Junction%2C%20Bharanikkavu!5e0!3m2!1sen!2sin!4v1709789012852!5m2!1sen!2sin" 
+            width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6 contact_form-container">
+          <div class="contact_box" style="background-color: #1f233e;" >
+            <h3 style="color: #ffffff; text-align: center;">"Your journey with us begins with a simple message"</h3>
+            <div style="text-align: center; margin-bottom: 20px;">
+              <a href="https://api.whatsapp.com/send?phone=918606211118&text=Hi%C2%A0there,%C2%A0Let%27s%C2%A0have%C2%A0a%C2%A0talk" target="_blank">
+                <img src="images/logo/wassap.png"  alt="WhatsApp" style="margin-right: 10px;max-width: 270px;">
+              </a>
+            
+            </div>
+            <!-- <p style="color: #ffffff; text-align: center;">Contact us: 
+              <a href="tel:+1234567890" style="color: #ffffff; text-decoration: none;">+91 8606211118</a>
+              
+            </p> -->
           </div>
         </div>
-        <div class=" col-md-6 contact_form-container">
-          <div class="contact_box">
-            <form action="">
-              <input type="text" placeholder="Your Name">
-              <input type="email" placeholder="Email">
-              <input type="text" placeholder="Phone Number">
-              <input type="text" placeholder="Message">
-              <div>
-                <button type="submit">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+        
       </div>
-
-    </div>
     </div>
   </section>
+  
+
+
+  <!-- contact section -->
+
 
   <!-- end contact section -->
 
@@ -209,16 +209,16 @@
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 11,
         center: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 9.178067,
+          lng: 76.537249
         },
       });
 
       var image = 'images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
         position: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 9.178067,
+          lng: 76.537249
         },
         map: map,
         icon: image
