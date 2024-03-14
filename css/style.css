@@ -146,7 +146,7 @@ a:focus {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/gallery/guard-1129949_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -154,7 +154,7 @@ a:focus {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
-  background-image: url(../images/banner/collin-8FxJi5wuwKc-unsplash.jpg);
+  background-image: url(../images/gallery/IS-new-1024x702.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
